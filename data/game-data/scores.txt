@@ -1,0 +1,7 @@
+Human:800
+Human:300
+Exemplar:200
+Exemplar:200
+Test#1:0
+Exemplar:0
+Human:0
