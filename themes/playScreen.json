@@ -1,0 +1,369 @@
+{
+  "defaults": {
+    "colours": {
+      "normal_bg": "#000000",
+      "hovered_bg": "#000000",
+      "disabled_bg": "#000000",
+      "selected_bg": "#000000",
+      "active_bg": "#00000000",
+      "normal_text": "#FFFFFF",
+      "hovered_text": "#FF0000",
+      "active_text": "#CC0000",
+      "normal_border": "#00000000",
+      "hovered_border": "#00000000",
+      "selected_border": "#00000000",
+      "active_border": "#00000000",
+      "disabled_border": "#00000000"
+    },
+
+    "font": {
+      "name": "calibri",
+      "size": "12"
+    }
+  },
+
+  "#main_panel": {
+    "colours": {
+      "normal_border": "#FFA500",
+      "dark_bg": "#000000"
+    },
+    "misc": {
+      "shape": "rounded_rectangle",
+      "shape_corner_radius": "20",
+      "border_width": "5"
+    }
+  },
+
+  "#main_panel.#pause_button": {
+    "colours": {
+      "normal_bg": "#000000",
+      "hovered_bg": "#000000",
+      "disabled_bg": "#000000",
+      "selected_bg": "#000000",
+      "active_bg": "#00000000",
+      "normal_border": "#00000000",
+      "hovered_border": "#00000000",
+      "selected_border": "#00000000",
+      "active_border": "#00000000",
+      "disabled_border": "#00000000"
+    },
+    "images": {
+      "normal_image": {
+        "package": "images",
+        "resource": "inactivePause.png"
+      },
+      "hovered_image": {
+        "package": "images",
+        "resource": "activePause.png"
+      },
+      "selected_image": {
+        "package": "images",
+        "resource": "activePause.png"
+      },
+      "disabled_image": {
+        "package": "images",
+        "resource": "activePause.png"
+      }
+    }
+  },
+
+  "#main_panel.#life_panel": {
+    "colours": {
+      "normal_border": "#000000",
+      "dark_bg": "#000000"
+    }
+  },
+
+  "#main_panel.#life_panel.#life_text": {
+    "colours": {
+      "normal_text": "#FFFFFF",
+      "dark_bg": "#00000000"
+    },
+    "font": {
+      "name": "calibri",
+      "size": "40",
+      "regular_resource": {
+        "package": "fonts",
+        "resource": "calibriRegular.ttf"
+      },
+      "bold_resource": {
+        "package": "fonts",
+        "resource": "calibriBold.ttf"
+      },
+      "bold_italic_resource": {
+        "package": "fonts",
+        "resource": "calibriBoldItalic.ttf"
+      }
+    }
+  },
+
+  "#main_panel.#duck_panel": {
+    "colours": {
+      "normal_border": "#000000",
+      "dark_bg": "#000000"
+    }
+  },
+
+  "#main_panel.#duck_panel.#duck_text": {
+    "colours": {
+      "normal_text": "#FFFFFF",
+      "dark_bg": "#00000000"
+    },
+    "font": {
+      "name": "calibri",
+      "size": "40"
+    }
+  },
+
+  "#system_text": {
+    "colours": {
+      "normal_text": "#FFFFFF",
+      "dark_bg": "#00000000"
+    },
+
+    "font": {
+      "name": "calibri",
+      "size": "50"
+      },
+
+    "misc": {
+      "text_shadow": "0"
+    }
+  },
+
+  "#game_panel": {
+    "colours": {
+      "normal_border": "#00000000",
+      "dark_bg": "#00000000"
+    },
+
+    "misc": {
+      "border_width": "0"
+    }
+  },
+
+  "#game_panel.#death_text": {
+    "colours": {
+      "dark_bg": "#00000000",
+      "normal_text": "#FFFFFF"
+    },
+    "font": {
+      "name": "arcadeclassic",
+      "size": "40",
+      "regular_resource": {
+        "package": "fonts",
+        "resource": "arcadeclassic.ttf"
+      }
+    }
+  },
+
+  "#game_panel.#round_text": {
+    "colours": {
+      "dark_bg": "#00000000",
+      "normal_text": "#FFFFFF"
+    },
+    "font": {
+      "name": "arcadeclassic",
+      "size": "80"
+    }
+  },
+    "#pause_overlay": {
+    "colours": {
+      "normal_border": "#00000000",
+      "dark_bg": "#00000000"
+    },
+    "images": {
+      "background_image": {
+        "package": "images",
+        "resource": "pauseBackground.png"
+      }
+    }
+  },
+  "#pause_overlay.#pause_box": {
+    "colours": {
+      "normal_border": "#FF6961",
+      "dark_bg": "#000000"
+    },
+    "misc": {
+
+      "border_width": "10"
+    }
+  },
+  "#pause_overlay.#pause_box.#quit_button": {
+    "colours": {
+      "normal_bg": "#000000",
+      "hovered_bg": "#000000",
+      "disabled_bg": "#000000",
+      "selected_bg": "#000000",
+      "active_bg": "#00000000",
+      "normal_text": "#FFFFFF",
+      "hovered_text": "#FF0000",
+      "active_text": "#CC0000",
+      "normal_border": "#00000000",
+      "hovered_border": "#00000000",
+      "selected_border": "#00000000",
+      "active_border": "#00000000",
+      "disabled_border": "#00000000"
+    },
+    "font": {
+      "name": "arcadeclassic",
+      "size": "60"
+    }
+  },
+  "#pause_overlay.#pause_box.#resume_button": {
+    "colours": {
+      "normal_bg": "#000000",
+      "hovered_bg": "#000000",
+      "selected_bg": "#000000",
+      "active_bg": "#00000000",
+      "normal_text": "#FFFFFF",
+      "hovered_text": "#00FF00",
+      "active_text": "#00CC00",
+      "selected_text": "#00CC00",
+      "normal_border": "#00000000",
+      "hovered_border": "#00000000",
+      "selected_border": "#00000000",
+      "active_border": "#00000000",
+      "disabled_border": "#00000000"
+    },
+    "font": {
+      "name": "arcadeclassic",
+      "size": "60"
+    }
+  },
+  "#pause_overlay.#pause_box.#pause_text": {
+    "font": {
+      "name": "arcadeclassic",
+      "size": "80"
+    },
+    "colours": {
+      "normal_text": "#FFFFFF",
+      "dark_bg": "#00000000"
+    }
+  },
+  "#game_over_overlay": {
+    "colours": {
+      "normal_border": "#00000000",
+      "dark_bg": "#F2000000"
+      },
+    "images": {
+      "background_image": {
+        "package": "images",
+        "resource": "pauseBackground.png"
+      }
+    }
+  },
+
+  "#game_over_overlay.#game_over_box": {
+    "colours": {
+      "normal_border": "#77DD77",
+      "dark_bg": "#000000"
+      },
+    "misc": {
+      "border_width": "10"
+    }
+  },
+
+  "#game_over_overlay.#game_over_box.#game_over_header": {
+    "colours": {
+      "dark_bg": "#00000000",
+      "normal_text": "#FFFFFF"
+    },
+    "font": {
+      "name": "arcadeclassic",
+      "size": "80"
+    }
+  },
+
+  "#game_over_overlay.#game_over_box.#leaderboard": {
+    "colours": {
+      "dark_bg": "#000000",
+      "normal_border": "#00000000"
+    }
+  },
+
+  "#game_over_overlay.#game_over_box.#leaderboard.vertical_scroll_bar.#sliding_button": {
+    "colours": {
+      "selected_bg": "#FFFFFF",
+      "active_bg": "#FFFFFF"
+    }
+  },
+
+  "#game_over_overlay.#game_over_box.#quit_button": {
+      "colours": {
+        "normal_bg": "#000000",
+        "hovered_bg": "#000000",
+        "disabled_bg": "#000000",
+        "selected_bg": "#000000",
+        "active_bg": "#00000000",
+        "normal_text": "#FFFFFF",
+        "hovered_text": "#FF0000",
+        "active_text": "#CC0000",
+        "normal_border": "#00000000",
+        "hovered_border": "#00000000",
+        "selected_border": "#00000000",
+        "active_border": "#00000000",
+        "disabled_border": "#00000000"
+      },
+    "font": {
+      "name": "arcadeclassic",
+      "size": "60"
+    }
+  },
+
+  "#game_over_overlay.#game_over_box.#resume_button": {
+      "colours": {
+        "normal_bg": "#000000",
+        "hovered_bg": "#000000",
+        "selected_bg": "#000000",
+        "active_bg": "#00000000",
+        "normal_text": "#FFFFFF",
+        "hovered_text": "#00FF00",
+        "active_text": "#00CC00",
+        "selected_text": "#00CC00",
+        "normal_border": "#00000000",
+        "hovered_border": "#00000000",
+        "selected_border": "#00000000",
+        "active_border": "#00000000",
+        "disabled_border": "#00000000"
+      },
+    "font": {
+      "name": "arcadeclassic",
+      "size": "60"
+    }
+  },
+
+  "#game_over_overlay.#game_over_box.#game_over_text": {
+    "colours": {
+      "dark_bg": "#000000"
+    }
+  },
+
+  "#game_over_overlay.#game_over_box.#name_label": {
+    "colours": {
+      "dark_bg": "#000000",
+      "normal_text": "#FFFFFF"
+    },
+    "font": {
+      "name": "calibri",
+      "size": "30"
+    }
+  },
+
+  "#game_over_overlay.#game_over_box.#name_entry_box": {
+    "colours": {
+      "dark_bg": "#000000",
+      "normal_border": "#FFB347",
+      "normal_text": "#FFFFFF"
+    },
+    "font": {
+      "name": "calibri",
+      "size": "30"
+    },
+
+    "misc": {
+      "border_width": "2",
+      "padding": "10,5"
+    }
+  }
+}
